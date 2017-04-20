@@ -8,7 +8,6 @@
  */
 \Larakit\StaticFiles\Manager::package('larakit/sf-angular-rzslider')
     ->setSourceDir('public')
-    ->ngModule('rzModule')
     ->usePackage('larakit/sf-angular')
     ->jsPackage('rzslider.min.js')
     ->cssPackage('rzslider.min.css');
